@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Digiplus IT Assingment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <div id="tree" class="tree"></div>
+  
+  <div class="controls">
+    <label>Node Type</label>
+    <select id="node-type">
+      <option value="single">Single one...</option>
+      <option value="child">Child</option>
+      <option value="parent">Parent</option>
+    </select>
+    
+    <label>Node Value/Selected Node</label>
+    <input type="text" id="node-name" placeholder="Write Node Value here/Node Name">
+    
+    <button onclick="addNode()">Add</button>
+    <button onclick="updateNode()">Update</button>
+    <button onclick="deleteNode()">Delete</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
